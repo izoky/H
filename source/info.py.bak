@@ -1,0 +1,18 @@
+from os import getenv
+#from pyrogram import Client
+#from driver.veez import user, bot
+
+
+#async def info(ahmed, yad):
+#    if ahmed == "bot":
+#      get_info = (await bot.get_me())
+#    elif ahmed == "user":
+#      get_info = (await user.get_me())
+#    if yad == "id":
+#      yyybd = (get_info.id)
+#    elif yad == "user":
+#      yyybd = (get_info.username)
+#    return yyybd
+
+BOT_USERNAME = getenv("BOT_USERNAME", "AYVCMusicbot")
+ASSISTANT_NAME = getenv("ASSISTANT_USERNAME", "AYVCMusicuser")
