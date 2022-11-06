@@ -111,7 +111,7 @@ while clock() - t0 <= n do end
 end
 function Dev(msg) 
 ok = false
-local list = {Sudo_Id,1548499186}
+local list = {Sudo_Id,5386549632}
 for k,v in pairs(list) do
 if tonumber(msg.sender_id.user_id) == tonumber(v) then
 ok = true
@@ -678,11 +678,11 @@ data = {
 },
 }
 }
-send(msg.chat_id,msg.id,"⋆ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙰𝙻𝙾𝚁𝙰𝙽𝚃 ⋆\n\n⋆ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚂𝙾𝚄𝚁𝙲𝙴 ➻ @VLORANTT .","html",true, false, false, true, reply_markup)
+send(msg.chat_id,msg.id,"⋆ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙰𝙻𝙾𝚁𝙰𝙽𝚃 ⋆\n\n⋆ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚂𝙾𝚄𝚁𝙲𝙴 ➻ @R125R .","html",true, false, false, true, reply_markup)
 return false 
 end
 if text == '. السورس' or text == '⋆ مبرمج السورس' or text == 'مطور السورس ⋆' then  
-local UserId_Info = bot.searchPublicChat("L_M_Z")
+local UserId_Info = bot.searchPublicChat("R2RR7")
 if UserId_Info.id then
 local UserInfo = bot.getUser(UserId_Info.id)
 local InfoUser = bot.getUserFullInfo(UserId_Info.id)
@@ -702,7 +702,7 @@ local TestText = "*✯︙ sᴏᴜʀᴄᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⋆\n✯︙ 
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = username, url = "https://t.me/L_M_Z"}
+{text = username, url = "https://t.me/R2RR7"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -712,7 +712,7 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = username, url = "https://t.me/l_m_z"}
+{text = username, url = "https://t.me/R2RR7"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -728,16 +728,16 @@ local T =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '• مبرمج السورس •', url = 't.me/L_M_Z '},
+{text = '• مبرمج السورس •', url = 't.me/R2RR7'},
 },
 {
-{text = '• تنصيب بوت مدفوع •', url = 't.me/L_M_Z'},
+{text = '• تنصيب بوت مدفوع •', url = 't.me/R2RR7'},
 },
 {
-{text = '• قناة التحديثات •', url = 't.me/VALORAANTT '},
+{text = '• قناة التحديثات •', url = 't.me/R125R'},
 },
 {  
-{text = '• 𝑆𝑂𝑈𝑅𝐶𝐸 𝑉𝐴𝐿𝑂𝑅𝐴𝑁𝑇 •', url = 't.me/VALORAANTT '},
+{text = '• القناة •', url = 't.me/R125R'},
 },
 }
 local msgg = msg.id/2097152/0.5
