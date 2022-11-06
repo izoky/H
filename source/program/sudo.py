@@ -58,16 +58,16 @@ async def test_ass(ay, message):
 @bot.on_message(command(["يا سورس"]) & ~filters.edited & filters.private)
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://telegra.ph/file/1de02fae526da7a3dfe67.jpg",
-        caption=f"""[⌁ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝚄𝚂𝙸𝙲 𝚂𝙰𝙸𝙳𝙸 🎸](https://t.me/S_a_i_d_i)\n\n[⌁ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙰𝙱𝚆𝙰 🎸](https://t.me/JABWA)\n\n[⌁ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙴𝙺𝙰 🎸](https://t.me/DevJeka)""",
+        photo="https://t.me/QQQLO/220",
+        caption=f"""[⌁ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝚄𝚂𝙸𝙲 𝚂𝙰𝙸𝙳𝙸 🎸](https://t.me/R3RR7)\n\n[⌁ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙰𝙱𝚆𝙰 🎸](https://t.me/R125R)\n\n[⌁ 𝙳𝙴𝚅 𝚂𝙾𝚄𝚁𝙲𝙴 𝙹𝙴𝙺𝙰 🎸](https://t.me/R2RR7)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "˹ٰ𝗦ِٰٰٰٰٰٰٰٰ𝗢ِٰ𝗨ِٰ𝗥ِٰ𝗖ِٰ𝗘ٰٰٰٰٰٰٰٰٰٰٰٰٰ ٰ𝗦ِٰ𝗔ِٰ𝗜ِٰ𝗗ِٰ𝗜ٰ˼", url=f"https://t.me/S_a_i_d_i"), 
+                        "˹ٰ𝗦ِٰٰٰٰٰٰٰٰ𝗢ِٰ𝗨ِٰ𝗥ِٰ𝗖ِٰ𝗘ٰٰٰٰٰٰٰٰٰٰٰٰٰ˼", url=f"https://t.me/R125R"), 
                 ],[
                     InlineKeyboardButton(
-                        "･ َِᥴُ ِِِꪋَٖ ꪶَِٰ ِꪑَٖ ☕️َِٖ🌿.", url=f"https://t.me/UUJEA"),
+                        "･ َِᥴُ ِِِꪋَٖ ꪶَِٰ ِꪑَٖ ☕️َِٖ🌿.", url=f"https://t.me/R125R"),
                 ],[
                     InlineKeyboardButton(
                         "أضغط لاضافه ألبوت لمجموعتك 𖣳", url=f"https://t.me/Bot_JABWA_Bot?startgroup=true"),
